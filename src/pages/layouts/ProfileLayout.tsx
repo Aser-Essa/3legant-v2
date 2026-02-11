@@ -1,0 +1,10 @@
+import { Outlet } from "react-router";
+
+export default function ProfileLayout() {
+  return (
+    <div className="flex h-svh items-center justify-center">
+      <p className="text-5xl text-red-500">ProfileLayout</p>
+      <Outlet />
+    </div>
+  );
+}
